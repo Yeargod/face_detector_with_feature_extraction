@@ -1,4 +1,5 @@
-###Dependency###
+##Dependency:##
+
 The operation system and software versions I used are listed as follows for your reference.
 
 Ubuntu: 14.04
@@ -6,7 +7,8 @@ Cuda: 8.0
 CuDNN: 5.1.10
 OpenCV: 2.4.13
 
-###Prediction:###
+##Prediction:##
+
 If you only want to predict your own face images with existing trained model, follow the steps below:
 
 1. Go to the folder "YOLO_detector" and run 'make'
@@ -15,7 +17,7 @@ If you only want to predict your own face images with existing trained model, fo
 
 3. Run 'demo_run_face_detector.py'. It can run at 80fps using one 1080Ti GPU.
 
-###Training###
+##Training##
 
 1. Go to the folder "YOLO_detector" and run 'make'
 
